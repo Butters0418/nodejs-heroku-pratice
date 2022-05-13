@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "07070492-bde4-4108-b359-84fbe751131e",
+		"name": "week2-posts-heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "取得所有資料",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fast-hamlet-21190.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"fast-hamlet-21190",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除單筆資料",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://fast-hamlet-21190.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"fast-hamlet-21190",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除所有資料",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://fast-hamlet-21190.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"fast-hamlet-21190",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增單筆資料",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"aaa\",\r\n    \"tags\":\"心情\",\r\n    \"type\":\"aaa\",\r\n    \"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Noto_Emoji_KitKat_263a.svg/800px-Noto_Emoji_KitKat_263a.svg.png\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fast-hamlet-21190.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"fast-hamlet-21190",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "更新單筆資料",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://fast-hamlet-21190.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"fast-hamlet-21190",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
